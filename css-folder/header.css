@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+header{
+  padding: 28px;
+}
+
+
+/* Responsive max-width */
+@media (max-width: 1199px) {
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars
+     {
+      color: #F4F4F4 !important;
+      font-size: 0.5 rem;
+    }         
+    .navbar-scroll .navbar-toggler{
+      background-color: #F4F4F4;
+    }
+    .navbar-scroll .navbar-toggler:hover{
+      box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    }
+    .navbar-scroll .navbar-brand{
+      font-size: 4rem;
+  }
+    .logo{
+        background-image: url('/images/logo-hover.png');
+        height: 40px;
+    }
+  }
+
+@media(max-width:593px){
+    .navbar-scroll .navbar-brand{
+      font-size: 2.4rem;
+    }
+  }
+
+@media(max-width: 387px){
+    .navbar-scroll .navbar-brand{
+        font-size: 1.7rem;
+    }
+    .logo{
+        background-image: url('/images/logo-hover.png');
+        height: 30px;
+    }
+}
+@media(max-width: 320px){
+  .navbar-scroll .navbar-brand{
+      font-size: 1.5rem;
+  }
+  .logo{
+      background-image: url('/images/logo-hover.png');
+      height: 20px;
+  }
+}
+  
+  /* Magic Restopub style */
+  .navbar-brand {
+    font-family: "Sacramento", cursive;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 10px;
+  }
+
+
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars, .book-btn {
+    color:#F4F4F4;
+    
+  }
+
+  .nav-link, .book-btn{
+    padding: 14px 16px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    
+  }
+
+  /* navbar links style when hover */
+  .nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #ffa500;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    
+  }
+  
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+  }
+  
+  .navbar-scrolled {
+    background-color: #F4F4F4;
+  }
+
+  .nav-item:hover, 
+  .navbar-brand:hover,
+  .book-btn:hover{
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+  
+  .logo:hover{
+    height: 50px;
+    border-radius:50%;
+    box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+  .logo{
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+
+
+  .btn-danger{
+    background-color: #ffa500;
+    border: #ffa500;
+}
+  .btn-danger:hover{
+    background-color: rgb(207, 117, 0);
+    border: #ff8d00;
+  }
+

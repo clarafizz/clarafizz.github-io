@@ -1,0 +1,12 @@
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    padding: 50px;
+    background-image: linear-gradient(#fff6a9,rgb(207, 117, 0));
+}
+
+.social-accounts{
+    color:  #fff6a9;
+}

@@ -1,0 +1,64 @@
+.carousel{
+    margin: 12px 5px;
+    padding: auto;
+    display: block;
+}
+
+.pages .c-img:hover{
+    border-radius: 10px;
+    filter: none;
+    
+}
+
+.pages .c-img{
+border-radius: 10px;
+background-color:  #fff6a9;
+
+}
+
+.ccLeft {
+    left: 5%;
+    text-align: left;
+    max-width: 500px;
+    right: auto;
+    padding:5px;
+    } 
+
+.ccRight {
+    right: 5%;
+    text-align: right;
+    max-width: 400px;
+    left: auto;
+    padding:5px;
+    }
+.ccTopLeft{
+    left: 5%;
+    text-align: left;
+    max-width: 400px;
+    right: auto;
+    padding:5px;
+    top: 0;
+    bottom: auto;
+}
+
+.ccTopRight{
+    right: 5%;
+    text-align: right;
+    max-width: 400px;
+    right: auto;
+    padding:5px;
+    top: 0;
+    bottom: auto;
+}
+
+.ccCenter{
+    top: 40%;
+    text-align: center;
+    max-width: 300px;
+    bottom: auto;
+    padding: 5px;
+}
+
+.colorW{
+    color: #fff6a9;
+}

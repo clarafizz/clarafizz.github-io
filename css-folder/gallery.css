@@ -1,0 +1,16 @@
+.card{
+    margin: 12px 5px;
+    padding: auto;
+    display: block;
+}
+
+.card-text{
+    
+    right: 5%;
+    text-align: right;
+    max-width: 400px;
+    left: auto;
+    padding:5px;
+
+}
+

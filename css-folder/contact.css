@@ -1,0 +1,21 @@
+body{
+    background-image: url(../images/contact-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+textarea{
+    resize: none;
+}
+
+[id$=ess]{
+    color: aliceblue;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
